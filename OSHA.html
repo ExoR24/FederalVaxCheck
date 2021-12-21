@@ -12,7 +12,7 @@
     <link rel="stylesheet" media="all" href="/sites/default/files/css/css_3UgTVq75hbfCwnoyXhsw_ljg4g_qzcqfOPkJyLZDKRU.css" />
 <link rel="stylesheet" media="all" href="/sites/default/files/css/css_pVtGuLyYk78cktomqMjAdeh9-TOwnpv_xl7pOZ4xjcM.css" />
 <link rel="stylesheet" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_G8P3_AWl2Vu491SCVBOoEpWAhsTog6NhInoP6R98--g.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_jEBhnHqoLujBCTXGmZeIqe4XMMUMGY-yTpknSGmHTww.css" />
 
     
   </head>
@@ -288,7 +288,7 @@
                                                         <a href="/stateplans" class="dropdown-toggle" data-target="/stateplans" title="State Plans"> State Plans </a>
                                     </li>
                                 <li>
-                                                        <a href="https://www.usajobs.gov/Search/?k=OSHA" class="dropdown-toggle" data-target="https://www.usajobs.gov/Search/?k=OSHA" title="Careers"> Careers </a>
+                                                        <a href="/careers" class="dropdown-toggle" data-target="/careers" title="Careers"> Careers </a>
                                     </li>
                                 <li>
                                                         <a href="/foia" class="dropdown-toggle" data-target="/foia" title="OSHA FOIA Page"> Freedom of Information Act </a>
@@ -318,7 +318,7 @@
                                                         <a href="/laws-regs" class="dropdown-toggle" data-target="/laws-regs" title="Law and Regulations"> Law and Regulations </a>
                                     </li>
                                 <li>
-                                                        <a href="https://www.regulations.gov/searchResults?rpp=25&amp;so=DESC&amp;sb=postedDate&amp;po=0&amp;cp=O&amp;dct=N%2BPR%2BFR%2BSR%2BO%2BPS&amp;a=OSHA" class="dropdown-toggle" data-target="https://www.regulations.gov/searchResults?rpp=25&amp;so=DESC&amp;sb=postedDate&amp;po=0&amp;cp=O&amp;dct=N%2BPR%2BFR%2BSR%2BO%2BPS&amp;a=OSHA" title="Open for Comment"> Open for Comment </a>
+                                                        <a href="https://www.regulations.gov/search?agencyIds=OSHA&amp;withinCommentPeriod=true" class="dropdown-toggle" data-target="https://www.regulations.gov/search?agencyIds=OSHA&amp;withinCommentPeriod=true" title="Open for Comment"> Open for Comment </a>
                                     </li>
                                 <li>
                                                         <a href="https://www.reginfo.gov/public/do/eAgendaMain?operation=OPERATION_GET_AGENCY_RULE_LIST&amp;currentPub=true&amp;agencyCode=&amp;showStage=active&amp;agencyCd=1200&amp;Image58_x=38&amp;Image58_y=14&amp;Image58=Submit" class="dropdown-toggle" data-target="https://www.reginfo.gov/public/do/eAgendaMain?operation=OPERATION_GET_AGENCY_RULE_LIST&amp;currentPub=true&amp;agencyCode=&amp;showStage=active&amp;agencyCd=1200&amp;Image58_x=38&amp;Image58_y=14&amp;Image58=Submit" title="Agency Rule List"> Regulatory Agenda </a>
@@ -388,7 +388,7 @@
                                                         <a href="/enforcement/fap" class="dropdown-toggle" data-target="/enforcement/fap" title="Federal Agencies"> Federal Agencies </a>
                                     </li>
                                 <li>
-                                                        <a href="/healthcare" class="dropdown-toggle" data-target="/healthcare" title="Healthcare Safety and Health Topics"> Health Care </a>
+                                                        <a href="/healthcare" class="dropdown-toggle" data-target="/healthcare" title="Healthcare Safety and Health Topics"> Healthcare </a>
                                     </li>
                                 <li>
                                                         <a href="/maritime" class="dropdown-toggle" data-target="/maritime" title="Maritime Industry"> Maritime </a>
@@ -586,10 +586,7 @@
     
             <div class="field field--name-field-fl-type field--type-entity-reference-revisions field--label-hidden field--item">  <div class="paragraph paragraph--type--feature-library-body paragraph--view-mode--default">
           
-            <div class="field field--name-field-acdoc-body field--type-text-long field--label-hidden field--item"><!--style type="text/css">
-.panel-default > .panel-heading{background-color:#fff;}
-</style-->
-<h3>Frequently Asked Questions</h3>
+            <div class="field field--name-field-acdoc-body field--type-text-long field--label-hidden field--item"><h3>Frequently Asked Questions</h3>
 <!-- <div class="col-xs-12 alert alert-danger">
 <p>Given the evolving nature of the pandemic, OSHA is in the process of reviewing and updating this document. These materials may no longer represent current OSHA recommendations and guidance. For the most up-to-date information, consult <a href="/coronavirus/safework" title="Protecting Workers Guidance">Protecting Workers Guidance</a>.</p>
 
@@ -623,11 +620,11 @@
 	<li><a href="#worker" title="Worker Protection Concerns">Worker Protection Concerns</a></li>
 </ul>
 
-<p> </p>
-
 <div class="pull-right">
-<p><button class="btn btn-primary" data-target=".panel-collapse" data-toggle="collapse" title="Toggle open/closed accordions">Open/Close All</button> <a aria-label="Open/Close All information" data-content="To print all of the information on this page, use the &quot;Open/Close All&quot; button to open all accordions." data-placement="bottom" data-toggle="popover" data-trigger="focus" role="button" tabindex="0" title="Printing information"><i class="fa fa-info-circle fa-lg"> </i></a></p>
+<p><button class="btn btn-primary open-all-panels" id="panel-expand-collapse" title="Open All">Open/Close All</button><a aria-label="Open/Close All information" data-content="To print all of the information on this page, use the &quot;Open/Close All&quot; button to open all accordions." data-placement="bottom" data-toggle="popover" data-trigger="focus" role="button" tabindex="0" title="Printing information"><i class="fa fa-info-circle fa-lg"> </i></a></p>
 </div>
+
+<p> </p>
 
 <h4 id="general-info">General Information</h4>
 
@@ -1513,8 +1510,8 @@ Note: Please see the <a href="/coronavirus/ets" title="COVID-19 Healthcare ETS">
   </div>
 
     
-    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/999878533","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ckeditorAccordion":{"accordionStyle":{"collapseAll":null,"keepRowsOpen":null}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"49ce3884677acd460f00980587f0a85319ae51a0305f2cbc4159ae94353b64c4"}}</script>
-<script src="/sites/default/files/js/js_VrZ3GEjaS4ZoPmBJ2N-8a8yggIXBrh8E4zcsWpcDmOE.js"></script>
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/999878533","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"back":"https:\/\/www.google.com\/search?client=safari\u0026as_qdr=all\u0026as_occt=any\u0026safe=active\u0026as_q=I was exposed to Covid at work does my company have to pay me for the time to get tested\u0026channel=aplab\u0026source=a-app1\u0026hl=en"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ckeditorAccordion":{"accordionStyle":{"collapseAll":null,"keepRowsOpen":null}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"49ce3884677acd460f00980587f0a85319ae51a0305f2cbc4159ae94353b64c4"}}</script>
+<script src="/sites/default/files/js/js_JkZ09MnP7WDg65KWMMw1RnqgHyUE8v7dE_SWUMw79SY.js"></script>
 
     <script type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOL&subagency=OSHA&pua=UA-35083949-1"></script>
   </body>
